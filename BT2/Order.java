@@ -17,7 +17,7 @@ public class Order {
         }
         this.orderID = orderID;
         setOrderDate(orderDate != null ? new java.sql.Date(orderDate.getTime()) : null);
-        lineItems = new OrderDetail[10]; // Default size
+        lineItems = new OrderDetail[10]; 
     }
     
     public Order(int size) {
@@ -97,3 +97,4 @@ public class Order {
         return sb.toString();
     }
 }
+
