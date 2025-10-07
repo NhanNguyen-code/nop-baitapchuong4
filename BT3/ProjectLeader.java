@@ -6,6 +6,7 @@ class ProjectLeader extends Programmer{
 	
 	@Override
 	double getMonthlySalary() {
-		return super.getMonthlySalary() * 1.2;
+		return super.getMonthlySalary() + theBasicMohthlySalary * 0.2;
 	}
 }
+
